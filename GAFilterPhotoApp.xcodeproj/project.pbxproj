@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC632AE31C54F740004C173D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC632AE21C54F740004C173D /* AppDelegate.swift */; };
+		EC632AE51C54F740004C173D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC632AE41C54F740004C173D /* ViewController.swift */; };
+		EC632AE81C54F740004C173D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC632AE61C54F740004C173D /* Main.storyboard */; };
+		EC632AEA1C54F740004C173D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC632AE91C54F740004C173D /* Assets.xcassets */; };
+		EC632AED1C54F740004C173D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC632AEB1C54F740004C173D /* LaunchScreen.storyboard */; };
+		EC632AF81C54F740004C173D /* GAFilterPhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC632AF71C54F740004C173D /* GAFilterPhotoAppTests.swift */; };
+		EC632B031C54F740004C173D /* GAFilterPhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC632B021C54F740004C173D /* GAFilterPhotoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC632AF41C54F740004C173D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC632AD71C54F740004C173D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC632ADE1C54F740004C173D;
+			remoteInfo = GAFilterPhotoApp;
+		};
+		EC632AFF1C54F740004C173D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC632AD71C54F740004C173D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC632ADE1C54F740004C173D;
+			remoteInfo = GAFilterPhotoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC632ADF1C54F740004C173D /* GAFilterPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAFilterPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC632AE21C54F740004C173D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC632AE41C54F740004C173D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC632AE71C54F740004C173D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC632AE91C54F740004C173D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC632AEC1C54F740004C173D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC632AEE1C54F740004C173D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC632AF31C54F740004C173D /* GAFilterPhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAFilterPhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC632AF71C54F740004C173D /* GAFilterPhotoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAFilterPhotoAppTests.swift; sourceTree = "<group>"; };
+		EC632AF91C54F740004C173D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC632AFE1C54F740004C173D /* GAFilterPhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAFilterPhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC632B021C54F740004C173D /* GAFilterPhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAFilterPhotoAppUITests.swift; sourceTree = "<group>"; };
+		EC632B041C54F740004C173D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC632ADC1C54F740004C173D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC632AF01C54F740004C173D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC632AFB1C54F740004C173D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC632AD61C54F740004C173D = {
+			isa = PBXGroup;
+			children = (
+				EC632AE11C54F740004C173D /* GAFilterPhotoApp */,
+				EC632AF61C54F740004C173D /* GAFilterPhotoAppTests */,
+				EC632B011C54F740004C173D /* GAFilterPhotoAppUITests */,
+				EC632AE01C54F740004C173D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC632AE01C54F740004C173D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC632ADF1C54F740004C173D /* GAFilterPhotoApp.app */,
+				EC632AF31C54F740004C173D /* GAFilterPhotoAppTests.xctest */,
+				EC632AFE1C54F740004C173D /* GAFilterPhotoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC632AE11C54F740004C173D /* GAFilterPhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				EC632AE21C54F740004C173D /* AppDelegate.swift */,
+				EC632AE41C54F740004C173D /* ViewController.swift */,
+				EC632AE61C54F740004C173D /* Main.storyboard */,
+				EC632AE91C54F740004C173D /* Assets.xcassets */,
+				EC632AEB1C54F740004C173D /* LaunchScreen.storyboard */,
+				EC632AEE1C54F740004C173D /* Info.plist */,
+			);
+			path = GAFilterPhotoApp;
+			sourceTree = "<group>";
+		};
+		EC632AF61C54F740004C173D /* GAFilterPhotoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC632AF71C54F740004C173D /* GAFilterPhotoAppTests.swift */,
+				EC632AF91C54F740004C173D /* Info.plist */,
+			);
+			path = GAFilterPhotoAppTests;
+			sourceTree = "<group>";
+		};
+		EC632B011C54F740004C173D /* GAFilterPhotoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC632B021C54F740004C173D /* GAFilterPhotoAppUITests.swift */,
+				EC632B041C54F740004C173D /* Info.plist */,
+			);
+			path = GAFilterPhotoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC632ADE1C54F740004C173D /* GAFilterPhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC632B071C54F740004C173D /* Build configuration list for PBXNativeTarget "GAFilterPhotoApp" */;
+			buildPhases = (
+				EC632ADB1C54F740004C173D /* Sources */,
+				EC632ADC1C54F740004C173D /* Frameworks */,
+				EC632ADD1C54F740004C173D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GAFilterPhotoApp;
+			productName = GAFilterPhotoApp;
+			productReference = EC632ADF1C54F740004C173D /* GAFilterPhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC632AF21C54F740004C173D /* GAFilterPhotoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC632B0A1C54F740004C173D /* Build configuration list for PBXNativeTarget "GAFilterPhotoAppTests" */;
+			buildPhases = (
+				EC632AEF1C54F740004C173D /* Sources */,
+				EC632AF01C54F740004C173D /* Frameworks */,
+				EC632AF11C54F740004C173D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC632AF51C54F740004C173D /* PBXTargetDependency */,
+			);
+			name = GAFilterPhotoAppTests;
+			productName = GAFilterPhotoAppTests;
+			productReference = EC632AF31C54F740004C173D /* GAFilterPhotoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC632AFD1C54F740004C173D /* GAFilterPhotoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC632B0D1C54F740004C173D /* Build configuration list for PBXNativeTarget "GAFilterPhotoAppUITests" */;
+			buildPhases = (
+				EC632AFA1C54F740004C173D /* Sources */,
+				EC632AFB1C54F740004C173D /* Frameworks */,
+				EC632AFC1C54F740004C173D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC632B001C54F740004C173D /* PBXTargetDependency */,
+			);
+			name = GAFilterPhotoAppUITests;
+			productName = GAFilterPhotoAppUITests;
+			productReference = EC632AFE1C54F740004C173D /* GAFilterPhotoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC632AD71C54F740004C173D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mind Fund Studio";
+				TargetAttributes = {
+					EC632ADE1C54F740004C173D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EC632AF21C54F740004C173D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EC632ADE1C54F740004C173D;
+					};
+					EC632AFD1C54F740004C173D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EC632ADE1C54F740004C173D;
+					};
+				};
+			};
+			buildConfigurationList = EC632ADA1C54F740004C173D /* Build configuration list for PBXProject "GAFilterPhotoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC632AD61C54F740004C173D;
+			productRefGroup = EC632AE01C54F740004C173D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC632ADE1C54F740004C173D /* GAFilterPhotoApp */,
+				EC632AF21C54F740004C173D /* GAFilterPhotoAppTests */,
+				EC632AFD1C54F740004C173D /* GAFilterPhotoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC632ADD1C54F740004C173D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC632AED1C54F740004C173D /* LaunchScreen.storyboard in Resources */,
+				EC632AEA1C54F740004C173D /* Assets.xcassets in Resources */,
+				EC632AE81C54F740004C173D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC632AF11C54F740004C173D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC632AFC1C54F740004C173D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC632ADB1C54F740004C173D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC632AE51C54F740004C173D /* ViewController.swift in Sources */,
+				EC632AE31C54F740004C173D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC632AEF1C54F740004C173D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC632AF81C54F740004C173D /* GAFilterPhotoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC632AFA1C54F740004C173D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC632B031C54F740004C173D /* GAFilterPhotoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC632AF51C54F740004C173D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC632ADE1C54F740004C173D /* GAFilterPhotoApp */;
+			targetProxy = EC632AF41C54F740004C173D /* PBXContainerItemProxy */;
+		};
+		EC632B001C54F740004C173D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC632ADE1C54F740004C173D /* GAFilterPhotoApp */;
+			targetProxy = EC632AFF1C54F740004C173D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC632AE61C54F740004C173D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC632AE71C54F740004C173D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC632AEB1C54F740004C173D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC632AEC1C54F740004C173D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC632B051C54F740004C173D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC632B061C54F740004C173D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC632B081C54F740004C173D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GAFilterPhotoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfundstudio.GAFilterPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC632B091C54F740004C173D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GAFilterPhotoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfundstudio.GAFilterPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC632B0B1C54F740004C173D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GAFilterPhotoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfundstudio.GAFilterPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GAFilterPhotoApp.app/GAFilterPhotoApp";
+			};
+			name = Debug;
+		};
+		EC632B0C1C54F740004C173D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GAFilterPhotoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfundstudio.GAFilterPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GAFilterPhotoApp.app/GAFilterPhotoApp";
+			};
+			name = Release;
+		};
+		EC632B0E1C54F740004C173D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GAFilterPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfundstudio.GAFilterPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GAFilterPhotoApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC632B0F1C54F740004C173D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GAFilterPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfundstudio.GAFilterPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GAFilterPhotoApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC632ADA1C54F740004C173D /* Build configuration list for PBXProject "GAFilterPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC632B051C54F740004C173D /* Debug */,
+				EC632B061C54F740004C173D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC632B071C54F740004C173D /* Build configuration list for PBXNativeTarget "GAFilterPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC632B081C54F740004C173D /* Debug */,
+				EC632B091C54F740004C173D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC632B0A1C54F740004C173D /* Build configuration list for PBXNativeTarget "GAFilterPhotoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC632B0B1C54F740004C173D /* Debug */,
+				EC632B0C1C54F740004C173D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC632B0D1C54F740004C173D /* Build configuration list for PBXNativeTarget "GAFilterPhotoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC632B0E1C54F740004C173D /* Debug */,
+				EC632B0F1C54F740004C173D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC632AD71C54F740004C173D /* Project object */;
+}
